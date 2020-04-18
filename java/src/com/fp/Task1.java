@@ -11,6 +11,5 @@ public class Task1 {
     public static void main(String[] args) {
         var nums = List.of(1,2,3,4,5,6,7,8,9,0,10);
         new Task1().testElements(nums, num -> (num & 1) == 0 && num > 7);
-        Predicate<Integer> p;
     }
 }
